@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fish Game</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="title">
+      <img src="./src/images/fish.png" alt="" />
+      <h1>Fish Game</h1>
+    </div>
+    <div class="app">
+      <div class="fishPole">
+        <img src="./src/images/fishingrod2.png" alt="" id="fishPole" />
+      </div>
+      <div class="fishBtn">
+        <button type="button" id="fishBtn">Go Fishing!</button>
+      </div>
+      <div class="fishCount">
+        <div id="fishCountLabel">Fish Count:</div>
+        <div id="fishCount">0</div>
+        <div id="fpsCounter">FPS: 0</div>
+      </div>
+      <div class="store">
+        <div id="storeName">Bait Shop</div>
+        <div id="storeFront"></div>
+      </div>
+    </div>
+    <div class="app2">
+      <div class="structures">
+        <div id="structureLabel">Structures</div>
+      </div>
+    </div>
+    <div class="app3">
+      <div class="structureStore">
+        <div id="structureStoreTitle">Store</div>
+        <div id="fishingPole" class="structureStoreItems">Fishing Pole
+          <p id="fishingPoleAmmounts">Price: 50, Owned: 0</p>
+          <button type="button" class="buyBtn" id="fishingPoleBtn">Buy</button>
+        </div>
+        <div id="net" class="structureStoreItems">???
+          <button type="button" class="buyBtn" id="netBtn">Buy</button>
+        </div>
+        <div id="boat" class="structureStoreItems">???
+          <button type="button" class="buyBtn" id="boatBtn">Buy</button>
+        </div>
+        <div id="crew" class="structureStoreItems">???
+          <button type="button" class="buyBtn" id="crewBtn">Buy</button>
+        </div>
+        <div id="yacht" class="structureStoreItems">???
+          <button type="button" class="buyBtn" id=yachtBtn>Buy</button>
+        </div>
+        <div id="fishFactory" class="structureStoreItems">???
+          <button type="button" class="buyBtn" id="fishFactoryBtn">Buy</button>
+        </div>
+        <div id="fishPortal" class="structureStoreItems">???
+          <button type="button" class="buyBtn" id="fishPortalBtn">Buy</button>
+        </div>
+      </div>
+     </div>
+    </div>
+  </body>
+  <script src="./src/index.js" type="module"></script>
+</html>
